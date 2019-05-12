@@ -7,6 +7,6 @@ do
   git push
   git pull
   git reset --hard HEAD
-  sleep 1
+  sleep 2
 done
 
