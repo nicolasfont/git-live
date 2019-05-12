@@ -1,6 +1,10 @@
 #!/usr/bin/env sh
 
-git add -A .
-git commit -m "git live commit"
-git push
+while [ 1 ]
+do
+  git add -A .
+  git commit -m "git live commit"
+  git push
+  sleep 2
+done
 
