@@ -14,7 +14,6 @@ do
   if [[ $? -ne 0 ]];
   then
     branch=$(git rev-parse --abbrev-ref HEAD)
-    echo $branch
     git reset --hard origin/$branch >> /dev/null
     git clean -dff
   fi
