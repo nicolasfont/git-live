@@ -13,6 +13,7 @@ do
   
   if [[ $? -ne 0 ]];
   then
+    branch=$(git rev-parse --abbrev-ref HEAD)
     git reset --hard origin/master >> /dev/null
     git clean -dff
   fi
