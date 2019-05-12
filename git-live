@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-while [ 1 ]
+while :
 do
   git add -A .
   git commit -m "git live commit"
