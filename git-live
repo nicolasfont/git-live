@@ -4,7 +4,7 @@ while :
 do
   git add -A . >> /dev/null
   git commit -m "git live commit" >> /dev/null
-  git push >> /dev/null
+  git push -q >> /dev/null
   git pull >> /dev/null
   if [[ $? -ne 0 ]];
   then
