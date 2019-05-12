@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+echo "git live started"
+
+git add -A .
+git commit -m "git live commit"
+
+read
+echo "git live stopped"
+
