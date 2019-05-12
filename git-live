@@ -14,7 +14,7 @@ do
   if [[ $? -ne 0 ]];
   then
     git reset --hard origin/$(git rev-parse --abbrev-ref HEAD) >> /dev/null
-    # comment 1
+    # comment 11
     git clean -dff
   fi
 done
