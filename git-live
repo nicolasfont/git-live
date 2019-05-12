@@ -13,7 +13,7 @@ do
   
   if [[ $? -ne 0 ]];
   then
-    git reset --hard origin/master >> /dev/null
+    git reset --hard origin/HEAD >> /dev/null
     git clean -dff
   fi
 done
