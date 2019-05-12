@@ -15,7 +15,7 @@ do
   then
     branch=$(git rev-parse --abbrev-ref HEAD)
     echo $branch
-    # comment 11
+    # comment 112
     git reset --hard origin/$branch >> /dev/null
     git clean -dff
   fi
