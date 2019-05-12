@@ -14,7 +14,8 @@ do
   
   if [[ $? -ne 0 ]];
   then
-    git reset --hard HEAD >> /dev/null
+    git reset --hard origin/master >> /dev/null
+    git clean -f
   fi
   # comment 2
 done
