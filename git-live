@@ -10,6 +10,5 @@ do
   then
     git reset --hard HEAD
   fi
-  #sleep 1
 done
 
