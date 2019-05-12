@@ -2,7 +2,7 @@
 
 while :
 do
-  git add -A .
+  git add -A . >> /dev/null
   git commit -m "git live commit"
   git push
   git pull
