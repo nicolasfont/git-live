@@ -2,6 +2,7 @@
 while :
 do
   git add -A .
+  git diff --cached
   git commit -m "git live commit" >> /dev/null
 
   if [[ $? -eq 0 ]];
