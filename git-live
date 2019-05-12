@@ -4,6 +4,7 @@ echo "git live started"
 
 git add -A .
 git commit -m "git live commit"
+git push
 
 echo "git live stopped"
 
