@@ -6,6 +6,7 @@ do
   git commit -m "git live commit"
   git push
   git pull
+  echo $?
   git reset --hard HEAD
   sleep 2
 done
