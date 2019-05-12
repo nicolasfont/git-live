@@ -5,7 +5,8 @@ do
   git add -A .
   git commit -m "git live commit"
   git push
-  git pull --hard
+  git pull
+  git reset --hard origin HEAD
   sleep 1
 done
 
