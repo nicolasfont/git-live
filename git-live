@@ -2,8 +2,8 @@
 while :
 do
   git add -A .
-  git diff --cached --name-only
-  git commit -m "git live commit" >> /dev/null
+  changes=$(git diff --cached --name-only)
+  git commit -m "${changes}" >> /dev/null
 
   if [[ $? -eq 0 ]];
   then
