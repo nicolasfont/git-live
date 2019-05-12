@@ -17,3 +17,6 @@ do
     git reset --hard origin/master >> /dev/null
     git clean -f
   fi
+  # comment 21
+done
+
