@@ -6,8 +6,10 @@ do
   git commit -m "git live commit"
   git push
   git pull
-  echo $?
-  git reset --hard HEAD
+  if [[ $? -ne 0 ]];
+  then
+    git reset --hard HEAD
+  fi
   sleep 2
 done
 
