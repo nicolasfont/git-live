@@ -16,7 +16,6 @@ do
   then
     git reset --hard HEAD >> /dev/null
   fi
-
   #comment
 done
 
