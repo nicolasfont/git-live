@@ -13,13 +13,8 @@ do
   
   if [[ $? -ne 0 ]];
   then
-    git reset --hard origin/HEAD >> /dev/null
+    git reset --hard origin/master >> /dev/null
     git clean -dff
   fi
-<<<<<<< HEAD
-  # comment 1
-=======
-  # comment 2
->>>>>>> f50e4ef6fabf16b15844e5c065d91d031b6f3745
 done
 
