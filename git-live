@@ -8,7 +8,7 @@ do
   git pull >> /dev/null
   if [[ $? -ne 0 ]];
   then
-    git reset --hard HEAD
+    git reset --hard HEAD >> /dev/null
   fi
 done
 
