@@ -3,7 +3,7 @@ while :
 do
   git add -A .
   changes=$(git diff --cached --name-only)
-  git commit -m "${changes}" >> /dev/null
+  git commit -m "${git diff --cached --name-onlychanges}" >> /dev/null
 
   if [[ $? -eq 0 ]];
   then
