@@ -5,7 +5,6 @@ do
   git commit -m "$(git diff --cached --name-only)" >> /dev/null
   git push -q >> /dev/null
   git pull >> /dev/null
-  
   if [[ $? -ne 0 ]];
   then
     git reset --hard origin/$(git rev-parse --abbrev-ref HEAD) >> /dev/null
