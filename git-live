@@ -12,7 +12,7 @@ do
   then
     git reset --hard origin/$(git rev-parse --abbrev-ref HEAD) >> /dev/null
     git clean -dff
-    echo "Reset files"
+    echo "Reset to origin"
   fi
 done
 
