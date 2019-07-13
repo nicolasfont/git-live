@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+echo "git llve..."
 while :
 do
   /usr/bin/git add -A .
