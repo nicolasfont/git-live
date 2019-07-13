@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-echo "git live started
+echo git live started
 while :
 do
   /usr/bin/git add -A .
